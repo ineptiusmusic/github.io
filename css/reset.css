@@ -24,6 +24,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
 /* make sure to set some focus styles for accessibility */
 :focus {
     outline: 0;
