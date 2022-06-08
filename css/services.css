@@ -1,11 +1,15 @@
 /* Стили для всего блока */
+
 .services {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+
 }
 
 
+
 /* Стили для заголовка <h2>  */
+
 .services__title {
     font-family: 'Roboto';
     font-style: normal;
@@ -22,9 +26,16 @@
 }
 
 /* Стили для контейнера с карточками */
-.services__cards {}
+
+.services__cards {
+
+}
+
+
+
 
 /*  Стили для списка <ul> */
+
 .services__info {
     margin-top: 48px;
     display: flex;
@@ -32,27 +43,57 @@
     justify-content: space-between;
 }
 
+
+
 /* Стили для самой карточки */
+
 .card {
+
     border-radius: 3px;
     width: 595px;
+    
     height: 268px;
     margin-top: 10px;
     padding: 52px 32px 52px 52px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    background: linear-gradient(90.45deg, #FFFFFF 47.56%, rgba(255, 255, 255, 0) 98.81%);
+    border-radius: 3px;
 }
 
+
+
+/* Фон для карточки */
+
+.card__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.z__index {
+    z-index: 1;
+}
+
+
+
 /* Стили для контейнера Логотип+Название услуги */
+
 .card__logo__text {
     display: flex;
     align-items: center;
+    max-width: 420px;
 }
 
 
 
 /* Стили для <li> заголовков <h3> карточек */
+
 .card__title {
     font-family: 'Roboto';
     font-style: normal;
@@ -63,6 +104,9 @@
     color: #2F2F51;
     margin-left: 20px;
 }
+
+
+
 
 /* Стили для текста карточки */
 
@@ -78,5 +122,12 @@
     margin-top: 20px;
 
     width: 300px;
+   
     height: 75px;
+
+
+}
+
+body {
+    background: #F2F2F2;
 }
