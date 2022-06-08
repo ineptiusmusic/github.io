@@ -1,0 +1,29 @@
+.button-one {
+    background: #EF7F04;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 10px 18px;
+ 
+
+
+}
+
+.button-two {
+    background: #3B3A63;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 10px 18px;
+    margin-right: 14px;
+}
+
+.zamer {
+    padding-right: 13px;
+    
+}
+
+.raschet {
+    padding-right: 13px;
+  
+}
