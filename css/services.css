@@ -76,7 +76,7 @@
 
 }
 
-.z__index {
+.card__img {
     z-index: 1;
 }
 
@@ -130,4 +130,8 @@
 
 body {
     background: #F2F2F2;
+}
+
+.background__behind {
+    z-index: 1;
 }
