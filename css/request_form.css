@@ -1,0 +1,13 @@
+body {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.form__container {
+    width: 1920px;
+    margin-top: 17px;
+    height: 592px;
+    background-image: url(/img/introBackground.png);
+    background-repeat: no-repeat;
+}
