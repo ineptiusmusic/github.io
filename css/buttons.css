@@ -1,4 +1,4 @@
-.button-one {
+.button__one {
     background: #EF7F04;
     border-radius: 3px;
     color: #FFFFFF;
@@ -9,7 +9,7 @@
 
 }
 
-.button-two {
+.button__two {
     background: #3B3A63;
     border-radius: 3px;
     color: #FFFFFF;
