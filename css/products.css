@@ -51,10 +51,11 @@ font-size: 36px;
 line-height: 42px;
 }
 
-.production__about-content span::after {
-    width: 400px;
-}
 
+.production__about-content span {
+    width: 60%;
+    
+}
 
 
 .production__about-content li  {
@@ -70,7 +71,7 @@ line-height: 42px;
   content: "";
   position: absolute;
   border-bottom: 1px dotted;
-  width: 100%;
+  width: 80%;
   right: 0;
   bottom: 0;
 }
@@ -84,4 +85,5 @@ line-height: 42px;
 .production__about-content p:last-child {
   width: 125px;
 }
+
 
