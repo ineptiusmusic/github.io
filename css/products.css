@@ -77,3 +77,7 @@
     line-height: 40px;
 
 }
+
+.product__image {
+    width: 600px;
+}
