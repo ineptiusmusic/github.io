@@ -13,12 +13,12 @@
 .production__buttons button {
   border: none;
   background: none;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 16px;
   line-height: 19px;
   font-weight: 700;
   padding: 8px 24px;
-  cursor: pointer;
+  cursor:pointer;
   outline: none;
 }
 
@@ -33,7 +33,11 @@
   display: flex;
   
 }
-
+/*
+.production__about img {
+    cursor: zoom-in;
+}
+*/
 .production__about-content {
   padding: 74px 32px 52px 32px;
   display: flex;
