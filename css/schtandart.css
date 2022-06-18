@@ -1,0 +1,16 @@
+.schtandart {
+    max-width: 1200px;
+    width: 100%;
+    height: 435px;
+    background-image: url(/img/schtandart/background.png);
+    margin-top: 55px;
+}
+
+.schtandart img {
+    margin: 0 auto;
+    
+}
+
+.schtandart__list {
+    display: flex;
+}
