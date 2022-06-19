@@ -7,6 +7,10 @@
 
 }
 
+.schtandart__info {
+    height: 435px;
+}
+
 .schtandart img {
     padding-top: 35px;
     display: block;
@@ -62,7 +66,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    
+
 }
 
 .shtandart-list__description {
@@ -85,5 +89,13 @@
     width: 200px;
 }
 
+.schtandart__button {
 
+    width: 300px;
+    margin: 0 auto;
+    /* align-items: center; */
+    padding-top: 55px;
+    width: 255px;
+    height: 55px;
 
+}
