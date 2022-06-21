@@ -1,0 +1,101 @@
+.schtandart {
+    max-width: 1200px;
+    width: 100%;
+    height: 435px;
+    background-image: url(/img/schtandart/background.png);
+    margin-top: 55px;
+
+}
+
+.schtandart__info {
+    height: 435px;
+}
+
+.schtandart img {
+    padding-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/*
+
+.schtandart ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+.schtandart li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+
+    width: 155px;
+    height: 60px;
+    vertical-align: sub;
+
+    margin: 0 auto;
+   
+
+}
+
+.schtandart p {
+    margin-top: 45px;
+  display: flex;
+   
+}
+
+/*
+.schtandart p:last-child {
+   width: 170px;
+   vertical-align: super;
+}
+*/
+
+.schtandart-list__logo {
+    width: 1075px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.shtandart-list__description {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 25px;
+}
+
+.shtandart-list__description p {
+    width: 200px;
+}
+
+.schtandart__button {
+
+    width: 300px;
+    margin: 0 auto;
+    /* align-items: center; */
+    padding-top: 55px;
+    width: 255px;
+    height: 55px;
+
+}

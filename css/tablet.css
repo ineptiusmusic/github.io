@@ -1,0 +1,13 @@
+@media (max-width: 1075px;) {
+    .schtandart-list__logo {
+        width: 100%;
+        max-width: 630px;
+        padding: 0 20px;
+    }
+}
+    
+@media (max-width: 1000px) {
+    .schtandart-list__logo {
+        justify-content: space-around;
+    }
+}
