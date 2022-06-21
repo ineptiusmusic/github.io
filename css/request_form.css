@@ -1,12 +1,13 @@
 .container {
-    max-width: 1200px;
-    width: 100%;
+    width: 1200px;
+
     margin: 0 auto;
 }
 
 .request-form {
+   padding-bottom: 70px;
     background-image: url(/img/request_form/background.png);
-    
+
 }
 
 .form-info {
@@ -18,10 +19,41 @@
     display: flex;
 }
 
+/*
 .left .left-block__logo {
     padding: 60px 52px 0px 85px;
 }
-
+*/
 .licence {
     color: blue;
+}
+
+.form-info__left {
+    padding: 60px 52px 0px 85px;
+}
+
+.data__request {
+    width: 410px;
+    border-radius: 10px;
+    background: white;
+    padding: 45px 40px 65px 40px;
+
+   text-align: center;
+    
+}
+
+.data__request-title {
+    font-family: 'Roboto';
+    font-style: normal;
+   
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.request-info__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
 }
