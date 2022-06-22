@@ -1,6 +1,8 @@
-body [
+body {
+    max-width: 1920px;
+    width: 100%;
     
-]
+}
 
 
 h1,h2,h3,h4,h5,h6, body, p {
@@ -51,3 +53,7 @@ img {
     box-sizing: border-box;
 }
 
+
+input {
+    border: none;
+    
