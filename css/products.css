@@ -4,6 +4,10 @@
 
 }
 
+.title {
+  text-align: center;
+}
+
 .production__buttons {
   margin-top: 34px;
   display: flex;
