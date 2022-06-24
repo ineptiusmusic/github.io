@@ -1,8 +1,13 @@
+                                                    /* Стили для контейнера */
+
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
+
+
+                                    /* Стиль для бэкграунда всего блока (section) */
 
 .request-form {
     padding-bottom: 70px;
@@ -11,34 +16,35 @@
     background-image: cover;
 }
 
+
+                                    /* Стили для контейнера с левой и правой частью блока */
+
 .form-info {
     padding-top: 70px;
     display: flex;
 }
 
-.left-block__logo {
-    display: flex;
-    justify-content: space-between;
 
-}
 
-.logo-icon__description {
-    margin-top: 20px;
-    color: white;
-    width: 158px;
-    font-size: 14px;
-    line-height: 18px;
-}
 
-..logo-icon__description:last-child {
-    width: 80px;
-}
+                                        /* Левая часть блока (left-block) */
 
+
+.form-info__left {
+padding: 60px 52px 0px 85px;
+}                                        
+
+
+
+                                                /* Блок с Названием */
 
 .left-block__title {
     margin-bottom: 20px;
 }
 
+
+
+                                                    /* Стиль для h1 */
 
 .block__title {
     font-family: 'Roboto';
@@ -51,6 +57,8 @@
 
 }
 
+                                                    /* Стили для описания тайтла */
+
 .title__description {
 
     font-family: Roboto;
@@ -62,20 +70,46 @@
     color: white
 }
 
+                                                        /* Стили для иконок */
 
+.left-block__logo {
+    display: flex;
+    justify-content: space-between;
 
-/*
-.left .left-block__logo {
-    padding: 60px 52px 0px 85px;
 }
-*/
+
+
+                                                        /* Стили для описания иконок */
+
+.logo-icon__description {
+    margin-top: 20px;
+    color: white;
+    width: 158px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+                                                        /* Стили для последнего элемента описания */
+
+..logo-icon__description:last-child {
+    width: 80px;
+}
+
+
+
+
+                                                  /*     ПРАВА ЧАСТЬ БЛОКА. Форма с Инпутами     */
+
+
+
+
 .licence {
     color: blue;
 }
 
-.form-info__left {
-    padding: 60px 52px 0px 85px;
-}
+
+                                                        /* Бэкграунд формры */
 
 .data__request {
     position: relative;
@@ -87,11 +121,11 @@
     text-align: center;
 }
 
-.ruletka {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
+
+
+
+                                                        /* Стиль для тайтла формы */
+
 
 .data__request h2 {
     font-size: 18px;
@@ -99,15 +133,7 @@
     margin-bottom: 25px;
 }
 
-/*
-.data__request-info {
-    margin-bottom: 5px;
-    position: relative;
-}
-*/
-
-
-
+                                                        /* Стиль для инпутов */
 
 .request-info__input {
     padding-left: 15px;
@@ -119,20 +145,18 @@
 
 }
 
-.request-info__input::placeholder {
-    color: #424268;
-}
-
 input {
     background-color: #e2e2e2;
     border-radius: 3px;
 }
 
-.request-info__checkbox {
-    width: 50px;
-    height: 50px;
-    border-radius: 3px
+.request-info__input::placeholder {
+    color: #424268;
 }
+
+
+                                                        /* Стиль для секбокса */
+
 
 .input-checkbox {
     display: flex;
@@ -141,11 +165,20 @@ input {
 
 }
 
+.request-info__checkbox {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px
+}
+
+
 .input-checkbox label {
     font-size: 14px;
     text-align: start;
     margin-left: 10px;
 }
+
+                                                        /* Стиль для кнопки */
 
 .request-info__send {
     background: #EF7F04;
@@ -155,5 +188,15 @@ input {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+
     cursor: pointer;
+}
+
+
+                                                            /* Рисунок с рулеткой */
+
+.ruletka {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
