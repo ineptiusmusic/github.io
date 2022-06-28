@@ -178,7 +178,7 @@ input {
     margin-left: 10px;
 }
 
-                                                        /* Стиль для кнопки */
+                                                          /* Стиль для кнопки */
 
 .request-info__send {
     background: #EF7F04;
@@ -200,3 +200,27 @@ input {
     left: 0;
     bottom: 0;
 }
+
+
+
+                                                                  /* Адаптив */
+
+
+  @media screen and (max-width: 992px) {
+     .form-info__right {
+        display: none;
+     }                       
+     
+     .request-form {
+        margin-bottom: 20px;
+     }
+
+     .container {
+        width: 750px;
+     }
+
+     .form-info{
+        padding-top: 15px;
+     }
+     
+ }
