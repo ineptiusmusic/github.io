@@ -42,6 +42,12 @@ a {
 
 
 
+@media screen and (max-width: 1090px) {
+    .navigations__item_text {
+        font-size: 13px;
+    }
+}
+    
 
 
 
