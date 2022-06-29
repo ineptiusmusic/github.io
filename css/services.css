@@ -135,3 +135,18 @@ body {
 .background__behind {
     z-index: 1;
 }
+
+/* АДАПТИВ */
+
+@media screen and (max-width: 992px) {
+    .services__title {
+        margin-bottom: 30px;
+    }
+   
+   
+    .services__info {
+        width: 600px;
+        margin: 0 auto;
+        gap: 35px;
+    }
+}
