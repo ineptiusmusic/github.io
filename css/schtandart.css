@@ -86,3 +86,53 @@
 .raschet {
      align-items: baseline;
 }
+
+
+@media screen and (max-width: 992px) {
+     .schtandart {
+          width: 880px;
+          height: 680px;
+          background-image: none;
+          
+          
+     }
+
+
+     .schtandart-info {
+          background-image: url(/img/schtandart/background.png);
+          height: 680px;
+          background-repeat: no-repeat;
+          background-size: cover;
+     }
+
+     .info {
+          height: 250px;
+     }
+
+     .schtandart__list {
+          height: 250px;
+          display: grid;
+
+          
+     }
+
+     .schtandart ul {
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .schtandart ul:last-child {
+          margin-left: 20px;
+     }
+
+     
+
+     .schtandart__list li {
+          width: 220px;
+          height: 250px;
+          flex-wrap: wrap;
+          
+          
+     }
+
+} 

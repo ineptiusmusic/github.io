@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/buttons.css">
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/products.css">
-   <!--<link rel="stylesheet" href="/css/schtandart.css">-->  
+   <link rel="stylesheet" href="/css/schtandart.css">
     <title>Окна Хаус</title>
 
 </head>
@@ -21,27 +21,30 @@
     <header class="header">
         <div class="container">
             <div class="header__block">
-                <img src="/img/logo.png" alt="Логотип Компании">
+                <div class="header__block_logos">
+                    <img src="/Buttons/burger.svg" class="header__block_burger">
+                    <img src="/img/logo.png"  class="header__block_logo" alt="Логотип Компании">
+                </div>
 
                 <nav>
                     <ul class="header__navigations">
                         <li class="navigatons__item">
-                            <a href="link">Услуги</a>
+                            <a class="navigations__item_text" href="link">Услуги</a>
                         </li>
                         <li class="navigatons__item">
-                            <a href="link">Продукция</a>
+                            <a class="navigations__item_text" href="link">Продукция</a>
                         </li>
                         <li class="navigatons__item">
-                            <a href="link">О Компани</a>
+                            <a class="navigations__item_text" href="link">О Компани</a>
                         </li>
                         <li class="navigatons__item">
-                            <a href="link">Портфолио</a>
+                            <a class="navigations__item_text" href="link">Портфолио</a>
                         </li>
                         <li class="navigatons__item">
-                            <a href="link">Вопрос-Ответ</a>
+                            <a class="navigations__item_text" href="link">Вопрос-Ответ</a>
                         </li>
                         <li class="navigatons__item">
-                            <a href="link"> Контакты</a>
+                            <a class="navigations__item_text" href="link"> Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -301,72 +304,80 @@
         <!--Блок schtandart-->
 
         <section class="container schtandart">
-            <div v class="schtandart-info">
+            <div class="schtandart-info">
 
                 <img src="/img/vectors/schtandart/logo.svg" class="schtandart-info__title" alt="Логотип Schtandart" />
-                <ul class="schtandart__list">
 
-                    <li>
+                <div class="info">
+                    <ul class="schtandart__list">
 
-                        <img src="/img/vectors/schtandart/sertificat.svg" class="schtandart-info__logo" alt="Сертифицированный производитель" />
+                        <li>
+    
+                            <img src="/img/vectors/schtandart/sertificat.svg" class="schtandart-info__logo" alt="Сертифицированный производитель" />
+    
+    
+                            <p class="logo__description1">Сертифицированный
+                                производитель Rehau
+                            </p>
+                        </li>
+    
+                        <li>
+    
+                            <img src="/img/vectors/schtandart/zavod.svg" class="schtandart-info__logo" alt="Иновационный оконный завод" />
+    
+    
+                            <p class="logo__description2">Иновационный оконный завод</p>
+                        </li>
+    
+                        <li>
+    
+                            <img src="/img/vectors/schtandart/lider.svg" class="schtandart-info__logo" alt="Лидер по переработке 
+                            профилей Rehau в России" />
+    
+    
+    
+                            <p class="logo__description3">Лидер по переработке
+                                профилей Rehau в России
+                            </p>
+                        </li>
+    
+                        
 
+                        <li>
+    
+    
+                            <img src="/img/vectors/schtandart/hi-tech.svg" class="schtandart-info__logo" alt="Высокотехнологичное 
+                            автоматизированное 
+                            оборудование" />
+    
+    
+    
+                            <p class="logo__description4">Высокотехнологичное
+                                автоматизированное
+                                оборудование
+                            </p>
+                        </li>
+    
+                        <li>
+    
+                            <img src="/img/vectors/schtandart/assortiment.svg" class="schtandart-info__logo" alt="Широкий 
+                            ассортимент 
+                            продукции" />
+    
+    
+    
+                            <p class="logo__description5">Широкий
+                                ассортимент
+                                продукции
+                            </p>
+                        </li>
+    
+    
+                    </ul>
 
-                        <p class="logo__description1">Сертифицированный
-                            производитель Rehau
-                        </p>
-                    </li>
+                </div>
 
-                    <li>
-
-                        <img src="/img/vectors/schtandart/zavod.svg" class="schtandart-info__logo" alt="Иновационный оконный завод" />
-
-
-                        <p class="logo__description2">Иновационный оконный завод</p>
-                    </li>
-
-                    <li>
-
-                        <img src="/img/vectors/schtandart/lider.svg" class="schtandart-info__logo" alt="Лидер по переработке 
-                        профилей Rehau в России" />
-
-
-
-                        <p class="logo__description3">Лидер по переработке
-                            профилей Rehau в России
-                        </p>
-                    </li>
-
-                    <li>
-
-
-                        <img src="/img/vectors/schtandart/hi-tech.svg" class="schtandart-info__logo" alt="Высокотехнологичное 
-                        автоматизированное 
-                        оборудование" />
-
-
-
-                        <p class="logo__description4">Высокотехнологичное
-                            автоматизированное
-                            оборудование
-                        </p>
-                    </li>
-
-                    <li>
-
-                        <img src="/img/vectors/schtandart/assortiment.svg" class="schtandart-info__logo" alt="Широкий 
-                        ассортимент 
-                        продукции" />
-
-
-
-                        <p class="logo__description5">Широкий
-                            ассортимент
-                            продукции
-                        </p>
-                    </li>
-
-
-                </ul>
+                
 
 
 
