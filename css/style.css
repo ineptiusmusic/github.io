@@ -80,7 +80,7 @@
 .about-company {
   max-width: 1200px;
   width: 100%;
-  margin-top: 80px;
+  margin: auto;
 }
 
 .about-company__navigation h3 {
@@ -232,5 +232,35 @@
   line-height: 19px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+/* АДАПТИВ БЛОКА О КОМПАНИИ */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 880px;
+    width: 100%;
+  }
+  .about-company {
+    max-width: 880px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about-company__info {
+    width: 880px;
+  }
+  .about-company__info-description {
+    width: 433px;
+  }
+  .about-company__info-description__text p {
+    margin-left: 60px;
+  }
+  .about-company__info_image img {
+    width: 447px;
+    height: 460px;
+  }
+  .about-company__advantages {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */

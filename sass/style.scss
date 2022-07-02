@@ -74,7 +74,8 @@
 .about-company {
     max-width: 1200px;
     width: 100%;
-    margin-top: 80px;
+    margin: auto;
+
 
     &__navigation {
 
@@ -229,4 +230,47 @@
             
         }
     }
+}
+
+/* АДАПТИВ БЛОКА О КОМПАНИИ */
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        max-width: 880px;
+        width: 100%;
+    }
+
+    .about-company {
+        max-width: 880px;
+        width: 100%;
+        margin-top: 20px;
+
+        &__info {
+            width: 880px;
+            
+        }
+
+        &__info-description {
+            width: 433px;
+
+            &__text p {
+                margin-left: 60px;
+            }
+        }
+
+        &__info_image img {
+            width: 447px;
+            height: 460px;
+        }
+
+        &__advantages {
+            grid-template-columns: 1fr 1fr;
+    
+        }
+    }
+    
+   
+ 
+
 }
