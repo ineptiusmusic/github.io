@@ -160,13 +160,13 @@
 
         &-card {
             display: flex;
-            
+
             height: 105px;
 
             &__description {
                 width: 260px;
                 display: flex;
-                
+
 
                 & img {
                     margin-right: 20px
@@ -181,7 +181,7 @@
                     margin-top: 20px;
                 }
 
-              
+
 
                 & h4 {
                     margin-bottom: 10px;
@@ -197,7 +197,7 @@
                     color: #2F2F51;
 
 
-                    
+
                 }
 
 
@@ -205,7 +205,26 @@
         }
 
     }
+
+    &__buttons {
+        display: block;
+        text-align: center;
+       
+
+        &_zamer {
+            background-color: #ef7f04;
+            width: 300px;
+            height: 50px;
+            border-radius: 3px;
+            color: #FFFFFF ;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19px;
+            cursor: pointer;
+            margin-top: 20px;
+            
+        }
+    }
 }
-
-
-
