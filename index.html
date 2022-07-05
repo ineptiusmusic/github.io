@@ -5,25 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
-   <link rel="stylesheet" href="/css/style.css">
-   <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/request_form.css">
     <link rel="stylesheet" href="/css/buttons.css">
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/products.css">
-   <link rel="stylesheet" href="/css/schtandart.css">
+    <link rel="stylesheet" href="/css/schtandart.css">
     <title>Окна Хаус</title>
 
 </head>
 
 <body>
+
+    <!--  БЛОК HEADER  -->
+
     <header class="header">
         <div class="container">
             <div class="header__block">
                 <div class="header__block_logos">
                     <img src="/Buttons/burger.svg" class="header__block_burger">
-                    <img src="/img/logo.png"  class="header__block_logo" alt="Логотип Компании">
+                    <img src="/img/logo.png" class="header__block_logo" alt="Логотип Компании">
                 </div>
 
                 <nav>
@@ -60,7 +68,7 @@
     </header>
 
     <main>
-        <!-- Тут будет блок с формой-->
+        <!-- БЛОК С ФОРМОЙ-->
 
         <section class="request-form">
 
@@ -133,9 +141,8 @@
 
 
                             <div class="input-checkbox">
-                                <input class="request-info__checkbox" type="checkbox" required id="id"> 
-                                <label for="id"
-                                    class="info-check"><span>
+                                <input class="request-info__checkbox" type="checkbox" required id="id">
+                                <label for="id" class="info-check"><span>
                                         Согласен на обработку
                                         персональных данных
                                         в соответствии с <a class="licence" href="#">политикой
@@ -170,7 +177,7 @@
 
         </section>
 
-        <!-- Блок с услугами-->
+        <!-- БЛОК С УСЛУГАМИ-->
 
         <section class="services">
 
@@ -251,7 +258,7 @@
             </ul>
         </section>
 
-        <!--Блок с продукцией-->
+        <!--БЛОК С ПРОДУКЦИЕЙ-->
 
         <section class="container production">
             <h2 class="title">Продукция</h2>
@@ -301,7 +308,7 @@
         </section>
 
 
-        <!--Блок schtandart-->
+        <!--БЛОК SCHTANDART-->
 
         <section class="container schtandart">
             <div class="schtandart-info">
@@ -312,72 +319,74 @@
                     <ul class="schtandart__list">
 
                         <li>
-    
-                            <img src="/img/vectors/schtandart/sertificat.svg" class="schtandart-info__logo" alt="Сертифицированный производитель" />
-    
-    
+
+                            <img src="/img/vectors/schtandart/sertificat.svg" class="schtandart-info__logo"
+                                alt="Сертифицированный производитель" />
+
+
                             <p class="logo__description1">Сертифицированный
                                 производитель Rehau
                             </p>
                         </li>
-    
+
                         <li>
-    
-                            <img src="/img/vectors/schtandart/zavod.svg" class="schtandart-info__logo" alt="Иновационный оконный завод" />
-    
-    
+
+                            <img src="/img/vectors/schtandart/zavod.svg" class="schtandart-info__logo"
+                                alt="Иновационный оконный завод" />
+
+
                             <p class="logo__description2">Иновационный оконный завод</p>
                         </li>
-    
+
                         <li>
-    
+
                             <img src="/img/vectors/schtandart/lider.svg" class="schtandart-info__logo" alt="Лидер по переработке 
                             профилей Rehau в России" />
-    
-    
-    
+
+
+
                             <p class="logo__description3">Лидер по переработке
                                 профилей Rehau в России
                             </p>
                         </li>
-    
-                        
+
+
 
                         <li>
-    
-    
+
+
                             <img src="/img/vectors/schtandart/hi-tech.svg" class="schtandart-info__logo" alt="Высокотехнологичное 
                             автоматизированное 
                             оборудование" />
-    
-    
-    
+
+
+
                             <p class="logo__description4">Высокотехнологичное
                                 автоматизированное
                                 оборудование
                             </p>
                         </li>
-    
+
                         <li>
-    
+
                             <img src="/img/vectors/schtandart/assortiment.svg" class="schtandart-info__logo" alt="Широкий 
                             ассортимент 
                             продукции" />
-    
-    
-    
+
+
+
                             <p class="logo__description5">Широкий
                                 ассортимент
                                 продукции
                             </p>
                         </li>
-    
-    
+
+
                     </ul>
 
                 </div>
 
-                
+
 
 
 
@@ -392,12 +401,295 @@
 
         </section>
 
-        <!--Блок О Компании-->
+        <!--БЛОК О КОМПАНИИ-->
 
         <section class="about-company">
 
-            
+            <!-- Навигация -->
+
+            <div class="about-company__navigation">
+
+                <h3> О Компани</h3>
+
+                <ul class="about-company__navigation-list">
+                    <li>
+                        <button autofocus>Описание</button>
+                    </li>
+
+                    <li>
+                        <button>Как мы работаем</button>
+                    </li>
+
+                    <li>
+                        <button>Отзывы</button>
+                    </li>
+
+                    <li>
+                        <button>Сертификаты</button>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Раздел с Логотипом, картинкой и текстом -->
+
+            <div class="about-company__info">
+
+                <div class="about-company__info-description">
+
+                    <div class="about-company__info-description__logo">
+                        <img src="/img/vectors/about_company/logo.svg" alt="Логотип">
+                    </div>
+
+                    <div class="about-company__info-description__text">
+                        <p>
+                            Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его
+                            стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас
+                            очень
+                            важно, чтобы Вы сделали правильный выбор.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="about-company__info_image">
+                    <img src="/img/about_company/master.png" alt="Мастер">
+                </div>
+            </div>
+
+            <!-- НИЖНЯЯ ЧАСТЬ БЛОКА С ПРЕИМУЩЕСТВАМИ-->
+
+
+            <div class="about-company__advantages">
+
+                <!-- ПРЕИМУЩЕСТВО № 1-->
+
+                <div class="about-company__advantages-card">
+
+                    <div class="about-company__advantages-card__description">
+                        <img src="/img/about_company/prof.svg">
+
+                        <div class="about-company__advantages-card__description_text">
+
+                            <h4>ПРОФЕССИОНАЛИЗМ</h4>
+                            <p>
+                                Бригада профессиональных мастеров по монтажу и обслуживанию
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ПРЕИМУЩЕСТВО № 2-->
+
+                <div class="about-company__advantages-card">
+
+                    <div class="about-company__advantages-card__description">
+                        <img src="/img/about_company/price.svg" alt="">
+
+                        <div class="about-company__advantages-card__description_text">
+
+                            <h4>ЦЕНООБРАЗОВАНИЕ</h4>
+                            <p>
+                                Лучше цены на рынке пластиковых окон
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ПРЕИМУЩЕСТВО № 3-->
+
+                <div class="about-company__advantages-card">
+
+                    <div class="about-company__advantages-card__description">
+                        <img src="/img/about_company/mobility.svg" alt="">
+
+                        <div class="about-company__advantages-card__description_text">
+                            <h4>МОБИЛЬНОСТЬ</h4>
+                            <p>
+                                Заключение договора на дому
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ПРЕИМУЩЕСТВО № 4-->
+
+                <div class="about-company__advantages-card">
+
+                    <div class="about-company__advantages-card__description">
+                        <img src="/img/about_company/loyalty.svg" alt="">
+
+                        <div class="about-company__advantages-card__description_text">
+                            <h4>ЛОЯЛЬНОСТЬ</h4>
+                            <p>
+                                99% клиентов рекомендуют нас своим друзьям
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <!-- ПРЕИМУЩЕСТВО № 5-->
+
+                <div class="about-company__advantages-card">
+
+                    <div class="about-company__advantages-card__description">
+
+                        <img src="/img/about_company/speed.svg" alt="">
+
+                        <div class="about-company__advantages-card__description_text">
+
+                            <h4>СКОРОСТЬ</h4>
+
+                            <p>
+                                Короткие сроки установки изделий
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ПРЕИМУЩЕСТВО № 6-->
+
+                <div class="about-company__advantages-card">
+                    <div class="about-company__advantages-card__description">
+                        <img src="/img/about_company/quality.svg" alt="">
+
+                        <div class="about-company__advantages-card__description_text">
+                            <h4>СЛУЖБА КАЧЕСТВА</h4>
+                            <p>
+                                Безупречное качество и контроль изделий ПВХ
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- КНОПКА БЛОКА ПРЕИМУЩЕСТВ -->
+
+            <div class="about-company__buttons">
+                <button class="about-company__buttons_zamer"><img class="zamer" src="/Buttons/zamer.svg">Оформить заявку
+                    на замер</button>
+
+            </div>
+
+
+
+
+
+
         </section>
+
+        <!--БЛОК ПОРТФОЛИО-->
+
+        <section class="portfolio">
+
+            <div class="portfolio-info">
+
+                <h4> Портфолио</h4>
+
+                <div class="portfolio-info__pictures">
+
+                    <img src="/img/portfolio/pict_1.png" alt="">
+                    <img src="/img/portfolio/pict_2.png" alt="">
+                    <img src="/img/portfolio/pict_3.png" alt="">
+                    <img src="/img/portfolio/pict_4.png" alt="">
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- БЛОК ВОПРОС-ОТВЕТ-->
+
+        <section class="questions">
+
+            <div class="questions-info">
+
+
+
+                <div class="questions-info__answers">
+
+                    <h4>Вопрос-Ответ</h4>
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Сколько по времени занимает изготовление пластиковых окон?
+                        </summary>
+                        Расчет производится индивидуально
+
+                    </details>
+
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Какие существуют способы оплаты?
+                        </summary>
+                        
+                        Карты Visa, Mastercard, Maestro, Apple Pay
+                        и наличные средства
+
+
+                    </details>
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Где я могу посмотреть образцы?
+
+                        </summary>
+
+                    </details>
+
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Зачем вызывать замерщика? Я могу дать размеры
+                        </summary>
+
+                    </details>
+
+
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Хотелось бы отделать балкон. Поможете?
+                        </summary>
+
+                    </details>
+
+
+                    <details class="questions-info__answers_request">
+
+                        <summary>Мне надо нанимать грузчиков для подъема?
+                        </summary>
+                    </details>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </section>
+
 
 
 

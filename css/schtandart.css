@@ -1,88 +1,4 @@
-/*
-.schtandart {
-    max-width: 1200px;
-    width: 100%;
-    height: 435px;
-    background-image: url(/img/schtandart/background.png);
-    margin-top: 55px;
 
-}
-
-.schtandart__info {
-    height: 435px;
-}
-
-.info__title {
-    padding-top: 35px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.list__logo {
-    padding-top: 35px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 120px;
-
-}
-
-
-
-
-
-.schtandart ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1075px;
-    margin: 0 auto;
-}
-
-.schtandart li {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 60px;
-
-    width: 155px;
-    height: 60px;
-    vertical-align: sub;
-
-    margin: 0 auto;
-   
-
-}
-
-.schtandart p {
-    margin-top: 45px;
-  display: flex;
- 
-   
-}
-
-
-
-
-
-
-.schtandart__button {
-
-    width: 300px;
-    margin: 0 auto;
-    align-items: center; 
-    padding-top: 55px;
-    width: 255px;
-    height: 55px;
-    margin-bottom: 15px;
-
-}
-*/
 .raschet {
      align-items: baseline;
 }
@@ -90,9 +6,11 @@
 
 @media screen and (max-width: 992px) {
      .schtandart {
-          width: 880px;
-          height: 680px;
+          max-width: 880px;
+          width: 100%;
+          height: 720px;
           background-image: none;
+          margin-bottom: 150px;
           
           
      }
