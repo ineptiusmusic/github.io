@@ -567,11 +567,36 @@
   display: block;
 }
 
+.block-right__request_check a {
+  color: #ef7f04;
+}
+
 .block-right__request_check label {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+/* АДАПТИВ БЛОКА КОНТАКТЫ  */
+@media screen and (max-width: 992px) {
+  .contacts-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.block-left {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.block-right {
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

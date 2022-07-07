@@ -550,19 +550,19 @@
                 margin-bottom: 20px;
             }
 
-          &__social {
+            &__social {
 
-            & a {
-                padding-right: 3px;
-            }
-            
-            &_logo:hover {
-                transform: scale(1.7);
-                color: #2F2F51;
-                
-            }
+                & a {
+                    padding-right: 3px;
+                }
 
-          }
+                &_logo:hover {
+                    transform: scale(1.7);
+                    color: #2F2F51;
+
+                }
+
+            }
 
         }
 
@@ -645,6 +645,10 @@
     &__request_check {
         display: block;
 
+        & a {
+            color: #ef7f04;
+        }
+
 
 
         & label {
@@ -659,4 +663,30 @@
 
     }
 
+
+
+}
+
+/* АДАПТИВ БЛОКА КОНТАКТЫ  */
+
+@media screen and (max-width: 992px) {
+
+    .contacts {
+
+        &-block {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    
+}
+
+.block-left {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.block-right {
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
