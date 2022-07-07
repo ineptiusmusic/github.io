@@ -512,24 +512,36 @@
 
     &__information {
 
+        display: flex;
 
+        &-data {
+            width: 270px;
+
+            &__social img {
+                padding-right: 3px;
+            }
+            
+
+            &__description {
+                width: 200px;
+    
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                /* or 138% */
+    
+    
+                color: #2F2F51;
+    
+                margin-bottom: 20px;
+            }
+
+        }
       
 
-        &_description {
-            width: 200px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 22px;
-            /* or 138% */
-
-
-            color: #2F2F51;
-
-            margin-bottom: 20px;
-        }
+        
 
       
 
