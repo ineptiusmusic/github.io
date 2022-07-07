@@ -496,6 +496,16 @@
   margin-bottom: 20px;
 }
 
+.block-left__information-data__social a {
+  padding-right: 3px;
+}
+
+.block-left__information-data__social_logo:hover {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+  color: #2F2F51;
+}
+
 .block-right__request {
   position: relative;
   width: 510px;
@@ -524,6 +534,9 @@
   background: #E2E2E2;
   border: none;
   margin-bottom: 20px;
+  width: 430px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .block-right__request_form {

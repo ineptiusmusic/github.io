@@ -550,6 +550,20 @@
                 margin-bottom: 20px;
             }
 
+          &__social {
+
+            & a {
+                padding-right: 3px;
+            }
+            
+            &_logo:hover {
+                transform: scale(1.7);
+                color: #2F2F51;
+                
+            }
+
+          }
+
         }
 
 
@@ -596,6 +610,9 @@
             background: #E2E2E2;
             border: none;
             margin-bottom: 20px;
+            width: 430px;
+            padding-left: 15px;
+            padding-top: 15px;
         }
 
         &_form {
