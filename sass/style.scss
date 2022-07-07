@@ -485,6 +485,10 @@
             & img {
                 padding-right: 30px;
             }
+
+            & a:hover {
+                color: #ef7f04;
+            }
         }
     }
 
@@ -499,12 +503,20 @@
             & img {
                 padding-right: 20px;
             }
+
+            & a:hover {
+                color: #ef7f04;
+            }
         }
 
         &_email {
 
             & img {
                 padding-right: 18px;
+            }
+
+            & a:hover {
+                color: #ef7f04;
             }
         }
     }
@@ -520,30 +532,113 @@
             &__social img {
                 padding-right: 3px;
             }
-            
+
 
             &__description {
                 width: 200px;
-    
+
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 22px;
                 /* or 138% */
-    
-    
+
+
                 color: #2F2F51;
-    
+
                 margin-bottom: 20px;
             }
 
         }
-      
 
-        
 
-      
+
+
+
+
+    }
+
+}
+
+.block-right {
+
+
+
+    &__request {
+        position: relative;
+        width: 510px;
+        height: 565px;
+        border-radius: 10px;
+        background: white;
+        padding: 45px 40px 65px 40px;
+
+        text-align: center;
+
+        & h5 {
+            padding-bottom: 20px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #2F2F51;
+
+        }
+
+        & input {
+            margin-bottom: 25px;
+        }
+
+        & textarea {
+            background: #E2E2E2;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        &_form {
+            padding-left: 15px;
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            height: 40px;
+            border: none;
+        }
+
+        & button {
+            background: #2F2F51;
+            border-radius: 3px;
+            padding: 20px 40px;
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: #ef7f04;
+            }
+        }
+
+    }
+
+    &__request_check {
+        display: block;
+
+
+
+        & label {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+
+
+        }
 
     }
 

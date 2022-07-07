@@ -441,6 +441,10 @@
   padding-right: 30px;
 }
 
+.block-left__contacts_numbers a:hover {
+  color: #ef7f04;
+}
+
 .block-left__adress {
   width: 425px;
   padding-bottom: 60px;
@@ -454,8 +458,16 @@
   padding-right: 20px;
 }
 
+.block-left__adress_name a:hover {
+  color: #ef7f04;
+}
+
 .block-left__adress_email img {
   padding-right: 18px;
+}
+
+.block-left__adress_email a:hover {
+  color: #ef7f04;
 }
 
 .block-left__information {
@@ -482,5 +494,71 @@
   /* or 138% */
   color: #2F2F51;
   margin-bottom: 20px;
+}
+
+.block-right__request {
+  position: relative;
+  width: 510px;
+  height: 565px;
+  border-radius: 10px;
+  background: white;
+  padding: 45px 40px 65px 40px;
+  text-align: center;
+}
+
+.block-right__request h5 {
+  padding-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2F2F51;
+}
+
+.block-right__request input {
+  margin-bottom: 25px;
+}
+
+.block-right__request textarea {
+  background: #E2E2E2;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.block-right__request_form {
+  padding-left: 15px;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 40px;
+  border: none;
+}
+
+.block-right__request button {
+  background: #2F2F51;
+  border-radius: 3px;
+  padding: 20px 40px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.block-right__request button:hover {
+  background-color: #ef7f04;
+}
+
+.block-right__request_check {
+  display: block;
+}
+
+.block-right__request_check label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 /*# sourceMappingURL=style.css.map */
