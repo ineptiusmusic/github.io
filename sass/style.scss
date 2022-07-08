@@ -1,4 +1,4 @@
-/* БЛОК SHTANDART*/
+                /* БЛОК SHTANDART*/
 
 .schtandart {
     max-width: 1200px;
@@ -69,7 +69,7 @@
 }
 
 
-/* БЛОК О КОМПАНИИ */
+            /* БЛОК О КОМПАНИИ */
 
 .about-company {
     max-width: 1200px;
@@ -232,7 +232,7 @@
     }
 }
 
-/* АДАПТИВ БЛОКА О КОМПАНИИ */
+        /* АДАПТИВ БЛОКА О КОМПАНИИ */
 
 @media screen and (max-width: 992px) {
 
@@ -277,7 +277,7 @@
 
 
 
-/* БЛОК ПОРТФОЛИО */
+            /* БЛОК ПОРТФОЛИО */
 
 .portfolio {
     max-width: 1200px;
@@ -316,7 +316,7 @@
 
 }
 
-/* АДАПТИВ ПОРТФОЛИО */
+            /* АДАПТИВ ПОРТФОЛИО */
 
 @media screen and (max-width: 992px) {
 
@@ -338,7 +338,7 @@
 
 }
 
-/* ВОПРОС ОТВЕТ */
+               /* ВОПРОС ОТВЕТ */
 
 .questions {
     max-width: 1200px;
@@ -399,7 +399,7 @@
 
 }
 
-/* АДАПТИВ ВОПРОС-ОТВЕТ */
+            /* АДАПТИВ ВОПРОС-ОТВЕТ */
 
 @media screen and (max-width: 992px) {
 
@@ -420,7 +420,7 @@
 
 }
 
-/* КОНТАКТЫ */
+                    /* КОНТАКТЫ */
 
 .contacts {
     margin: auto;
@@ -488,6 +488,7 @@
 
             & a:hover {
                 color: #ef7f04;
+                transition-duration: 0.2s;
             }
         }
     }
@@ -506,6 +507,7 @@
 
             & a:hover {
                 color: #ef7f04;
+                transition-duration: 0.2s;
             }
         }
 
@@ -517,6 +519,7 @@
 
             & a:hover {
                 color: #ef7f04;
+                transition-duration: 0.2s;
             }
         }
     }
@@ -558,7 +561,7 @@
 
                 &_logo:hover {
                     transform: scale(1.7);
-                    color: #2F2F51;
+                    transition-duration: 0.3s;
 
                 }
 
@@ -637,6 +640,7 @@
 
             &:hover {
                 background-color: #ef7f04;
+                transition-duration: 0.3s;
             }
         }
 
@@ -667,7 +671,7 @@
 
 }
 
-/* АДАПТИВ БЛОКА КОНТАКТЫ  */
+            /* АДАПТИВ БЛОКА КОНТАКТЫ  */
 
 @media screen and (max-width: 992px) {
 

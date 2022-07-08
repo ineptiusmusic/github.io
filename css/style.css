@@ -443,6 +443,8 @@
 
 .block-left__contacts_numbers a:hover {
   color: #ef7f04;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .block-left__adress {
@@ -460,6 +462,8 @@
 
 .block-left__adress_name a:hover {
   color: #ef7f04;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .block-left__adress_email img {
@@ -468,6 +472,8 @@
 
 .block-left__adress_email a:hover {
   color: #ef7f04;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 .block-left__information {
@@ -503,7 +509,8 @@
 .block-left__information-data__social_logo:hover {
   -webkit-transform: scale(1.7);
           transform: scale(1.7);
-  color: #2F2F51;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .block-right__request {
@@ -561,6 +568,8 @@
 
 .block-right__request button:hover {
   background-color: #ef7f04;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .block-right__request_check {
