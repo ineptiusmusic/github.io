@@ -1,6 +1,6 @@
-                /* БЛОК SHTANDART*/
+    /* БЛОК SHTANDART*/
 
-                .schtandart {
+    .schtandart {
                     max-width: 1200px;
                     width: 100%;
                     height: 550px;
@@ -71,7 +71,7 @@
 
                 /* БЛОК О КОМПАНИИ */
 
-                .about-company {
+    .about-company {
                     max-width: 1200px;
                     width: 100%;
                     margin: auto;
@@ -234,7 +234,7 @@
 
                 /* АДАПТИВ БЛОКА О КОМПАНИИ */
 
-                @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
 
                     .container {
                         max-width: 880px;
@@ -279,7 +279,7 @@
 
                 /* БЛОК ПОРТФОЛИО */
 
-                .portfolio {
+    .portfolio {
                     max-width: 1200px;
                     width: 100%;
                     height: 410px;
@@ -318,7 +318,7 @@
 
                 /* АДАПТИВ ПОРТФОЛИО */
 
-                @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
 
                     .portfolio {
                         max-width: 992px;
@@ -340,7 +340,7 @@
 
                 /* ВОПРОС ОТВЕТ */
 
-                .questions {
+    .questions {
                     max-width: 1200px;
                     width: 100%;
                     height: 790px;
@@ -401,7 +401,7 @@
 
                 /* АДАПТИВ ВОПРОС-ОТВЕТ */
 
-                @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
 
                     .questions {
                         max-width: 880px;
@@ -422,7 +422,7 @@
 
                 /* КОНТАКТЫ */
 
-                .contacts {
+       .contacts {
                     margin: auto;
                     margin-top: 90px;
                     max-width: 1100px;
@@ -746,26 +746,51 @@
                             padding-top: 10px;
 
                             &-data {
-                                width: 440px;
+                                width: 445px;
                                 display: flex;
                                 margin: auto;
                                 gap: 19px;
 
-                                font-family: 'Roboto';
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 14px;
-                                line-height: 36px;
-                                /* identical to box height, or 257% */
+                              
 
-                                color: #FFFFFF;
+                                &__politics {
+                                    align-items: center;
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 36px;
+                                    /* identical to box height, or 257% */
 
+                                    color: #FFFFFF;
+
+                                    &:hover {
+                                        color: #ef7f04;
+                                        transition-duration: 0.3s;
+                                    }
+
+                                }
+
+                                &__agreement {
+                                    align-items: center;
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 36px;
+                                    /* identical to box height, or 257% */
+
+                                    color: #FFFFFF;
+
+                                    &:hover {
+                                        color: #ef7f04;
+                                        transition-duration: 0.3s;
+                                    }
+
+                                }
                             }
+
                         }
                     }
-
-
-
-
-
                 }
+            

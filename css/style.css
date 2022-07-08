@@ -665,12 +665,18 @@
 }
 
 .footer-content__licences-data {
-  width: 440px;
+  width: 445px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: auto;
   gap: 19px;
+}
+
+.footer-content__licences-data__politics {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -678,5 +684,30 @@
   line-height: 36px;
   /* identical to box height, or 257% */
   color: #FFFFFF;
+}
+
+.footer-content__licences-data__politics:hover {
+  color: #ef7f04;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.footer-content__licences-data__agreement {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  /* identical to box height, or 257% */
+  color: #FFFFFF;
+}
+
+.footer-content__licences-data__agreement:hover {
+  color: #ef7f04;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 /*# sourceMappingURL=style.css.map */

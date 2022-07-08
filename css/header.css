@@ -24,22 +24,44 @@ header {
 
 .header__block_burger {
     display: none;
+    
 }
+
+
 
 .header__navigations {
     display: flex;
 
 }
 
+
+
 .navigatons__item {
     margin-right: 27px;
 }
+
+
 
 a {
     color: #000000;
 
 }
 
+
+
+.navigations__item_text:hover {
+    color: #ef7f04;
+    transition-duration: 90ms;
+    padding-top: 20px;
+
+    border-top: solid 5px;
+    
+}
+
+
+.header__buttons {
+    cursor: pointer;
+}
 
 
 @media screen and (max-width: 1090px) {
@@ -62,13 +84,47 @@ a {
     }
 
     .header__block_burger {
-        display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 55px;
-        width: 55px;
-        height: 35px;
+        display:inline-block;
+        margin-top: 35px;
+        position: relative;
+        width: 50px;
+        height: 7px;
+        background-color: #ef7f04;
+        cursor: pointer;
     }
+
+
+    .header__block_burger::before {
+        content:"";
+        position: absolute;
+        
+        
+        
+        width: 50px;
+        height: 7px;
+        background-color: #ef7f04;
+
+        top: 20px;
+
+
+    }
+    
+    .header__block_burger::after {
+        content:"";
+        position: absolute;
+        
+        
+        
+        width: 50px;
+        height: 7px;
+        background-color: #ef7f04;
+
+        bottom: 20px;
+    }
+
+  
+
+
 
     .header__block_logo {
         display: block;
@@ -76,6 +132,7 @@ a {
         width: 105px;
         height: 75px;
         margin-top: 7px;
+        margin-bottom: 7px;
     }
 
     .header__buttons {
