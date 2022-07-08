@@ -1,796 +1,841 @@
     /* БЛОК SHTANDART*/
 
     .schtandart {
-                    max-width: 1200px;
-                    width: 100%;
-                    height: 550px;
-                    background-image: url(/img/schtandart/background.png);
-                    margin-top: 55px;
-                    background-repeat: no-repeat;
+        max-width: 1200px;
+        width: 100%;
+        height: 550px;
+        background-image: url(/img/schtandart/background.png);
+        margin-top: 55px;
+        background-repeat: no-repeat;
 
-                    &-info {
-                        height: 435px;
+        &-info {
+            height: 435px;
 
-                        &__title {
-                            padding-top: 35px;
-                            display: block;
-                            margin-left: auto;
-                            margin-right: auto
-                        }
+            &__title {
+                padding-top: 35px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto
+            }
 
-                        &__logo {
-                            padding-top: 35px;
-                            display: block;
-                            margin-left: auto;
-                            margin-right: auto;
-                            height: 120px;
-                        }
-                    }
+            &__logo {
+                padding-top: 35px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 120px;
+            }
+        }
 
-                    ul {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        max-width: 1075px;
-                        margin: 0 auto;
-                    }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1075px;
+            margin: 0 auto;
+        }
 
-                    li {
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 300;
-                        font-size: 16px;
-                        line-height: 19px;
-                        text-align: center;
-                        color: #FFFFFF;
-                        margin-top: 60px;
+        li {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 60px;
 
-                        width: 155px;
-                        height: 60px;
-                        vertical-align: sub;
+            width: 155px;
+            height: 60px;
+            vertical-align: sub;
 
-                        margin: 0 auto;
-                    }
+            margin: 0 auto;
+        }
 
-                    p {
-                        margin-top: 45px;
-                        display: flex;
-                    }
+        p {
+            margin-top: 45px;
+            display: flex;
+        }
 
-                    &__button {
-                        width: 300px;
-                        margin: 0 auto;
-                        align-items: center;
-                        padding-top: 55px;
-                        width: 255px;
-                        height: 55px;
-                        margin-bottom: 15px;
-                    }
-                }
+        &__button {
+            width: 300px;
+            margin: 0 auto;
+            align-items: center;
+            padding-top: 55px;
+            width: 255px;
+            height: 55px;
+            margin-bottom: 15px;
 
 
-                /* БЛОК О КОМПАНИИ */
+        }
+    }
+
+
+    /* БЛОК О КОМПАНИИ */
 
     .about-company {
-                    max-width: 1200px;
-                    width: 100%;
-                    margin: auto;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
 
 
-                    &__navigation {
+        &__navigation {
 
-                        & h3 {
-                            text-align: center;
-                            margin-bottom: 40px;
-                            margin-top: 90px;
-                        }
+            & h3 {
+                text-align: center;
+                margin-bottom: 40px;
+                margin-top: 90px;
+            }
 
-                        &-list {
-                            margin-top: 40px;
-                            margin: 0 auto;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            width: 700px;
-
-                            & button {
-                                align-items: center;
-                                border: none;
-                                background: none;
-                                font-weight: 100;
-                                font-size: 16px;
-                                line-height: 19px;
-                                font-weight: 400;
-                                padding: 8px 24px;
-                                margin-bottom: 40px;
-                                cursor: pointer;
-                            }
-
-                            & button:focus {
-                                color: #ffffff;
-                                background: #ef7f04;
-                                outline: none;
-                            }
-                        }
-                    }
-
-                    &__info {
-                        max-width: 1200px;
-                        width: 100%;
-                        height: 460px;
-                        display: flex;
-
-                        &-description {
-                            display: flex;
-                            flex-wrap: wrap;
-                            background-color: #FFFFFF;
-
-                            &__logo {
-                                width: 600px;
-                                height: 230px;
-                                padding-top: 45px;
-                                padding-left: 50px;
-                            }
-
-                            &__text {
-                                width: 600px;
-
-
-                            }
-
-                            &__text p {
-                                display: block;
-                                width: 300px;
-                                height: 160px;
-                                margin-left: 280px;
+            &-list {
+                margin-top: 40px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 700px;
 
 
 
-                            }
+                & button {
+                    align-items: center;
+                    border: none;
+                    background: none;
+                    font-weight: 100;
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-weight: 400;
+                    padding: 8px 24px;
+                    margin-bottom: 40px;
+                    cursor: pointer;
 
-                        }
-                    }
-
-                    &__advantages {
-                        max-width: 1100px;
-                        width: 100%;
-                        height: 450px;
-                        display: grid;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        margin: 0 auto;
-                        align-items: center;
-
-
-                        &-card {
-                            display: flex;
-
-                            height: 105px;
-
-                            &__description {
-                                width: 260px;
-                                display: flex;
-
-
-                                & img {
-                                    margin-right: 20px
-                                }
-
-                                &_text p {
-                                    width: 170px;
-                                    font-family: 'Roboto';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    margin-top: 20px;
-                                }
-
-
-
-                                & h4 {
-                                    margin-bottom: 10px;
-                                    font-family: 'Roboto';
-                                    font-style: normal;
-                                    font-weight: 700;
-                                    font-size: 16px;
-                                    line-height: 26px;
-                                    /* or 162% */
-
-                                    text-transform: uppercase;
-
-                                    color: #2F2F51;
-
-
-
-                                }
-
-
-                            }
-                        }
-
-                    }
-
-                    &__buttons {
-                        display: block;
-                        text-align: center;
-
-
-                        &_zamer {
-                            background-color: #ef7f04;
-                            width: 300px;
-                            height: 50px;
-                            border-radius: 3px;
-                            color: #FFFFFF;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 19px;
-                            cursor: pointer;
-                            margin-top: 20px;
-
-                        }
-                    }
+                    transition: all .1s ease;
                 }
 
-                /* АДАПТИВ БЛОКА О КОМПАНИИ */
+                & button:hover {
+                    background-color: #ef7f04;
+                    color: #ffffff;
+                    border-radius: 3px;
+                }
+            }
+        }
 
-    @media screen and (max-width: 992px) {
+        &__info {
+            max-width: 1200px;
+            width: 100%;
+            height: 460px;
+            display: flex;
 
-                    .container {
-                        max-width: 880px;
-                        width: 100%;
-                    }
+            &-description {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #FFFFFF;
 
-                    .about-company {
-                        max-width: 880px;
-                        width: 100%;
-                        margin-top: 20px;
-
-                        &__info {
-                            width: 880px;
-
-                        }
-
-                        &__info-description {
-                            width: 433px;
-
-                            &__text p {
-                                margin-left: 60px;
-                            }
-                        }
-
-                        &__info_image img {
-                            width: 447px;
-                            height: 460px;
-                        }
-
-                        &__advantages {
-                            grid-template-columns: 1fr 1fr;
-
-                        }
-                    }
-
-
-
-
+                &__logo {
+                    width: 600px;
+                    height: 230px;
+                    padding-top: 45px;
+                    padding-left: 50px;
                 }
 
-
-
-                /* БЛОК ПОРТФОЛИО */
-
-    .portfolio {
-                    max-width: 1200px;
-                    width: 100%;
-                    height: 410px;
-                    background-color: #FFFFFF;
-                    margin: 0 auto;
-
-                    &-info h4 {
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 24px;
-                        line-height: 28px;
-
-                        color: #2F2F51;
-                        margin-top: 50px;
-                        margin-bottom: 50px;
-                        text-align: center;
-
-                        padding-top: 50px;
-
-                    }
-
-                    &-info__pictures {
-
-                        max-width: 1000px;
-                        width: 100%;
-                        margin: 0 auto;
-                        display: flex;
-                        gap: 45px;
-                        align-items: center;
-
-                    }
-
-
-                }
-
-                /* АДАПТИВ ПОРТФОЛИО */
-
-    @media screen and (max-width: 992px) {
-
-                    .portfolio {
-                        max-width: 992px;
-                        width: 100%;
-
-                        &-info__pictures {
-                            max-width: 730px;
-                            width: 100%;
-
-                            & img:last-child {
-                                display: none;
-                            }
-                        }
-
-
-                    }
-
-                }
-
-                /* ВОПРОС ОТВЕТ */
-
-    .questions {
-                    max-width: 1200px;
-                    width: 100%;
-                    height: 790px;
-                    margin: 0 auto;
-                    background: #EF7F1A;
-                    border-radius: 7px;
-
-
-
-                    &-info__answers h4 {
-                        text-align: center;
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 24px;
-                        line-height: 28px;
-
-                        color: #FFFFFF;
-                        margin-top: 40px;
-                        margin-bottom: 50px;
-                    }
-
-                    &-info__answers {
-                        width: 1000px;
-                        display: grid;
-                        gap: 15px;
-                        margin: auto;
-
-                        &_request {
-
-                            height: 85px;
-                            border: none;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 18px;
-                            line-height: 21px;
-
-                            padding: 30px 0px 30px 19px;
-
-                            background-color: #FFFFFF;
-
-                            & summary {
-                                padding-bottom: 10px;
-                                display: block;
-                                outline: none;
-                                appearance: none;
-                                -webkit-details-marker: none;
-                            }
-
-                        }
-
-
-
-                    }
-
-                }
-
-                /* АДАПТИВ ВОПРОС-ОТВЕТ */
-
-    @media screen and (max-width: 992px) {
-
-                    .questions {
-                        max-width: 880px;
-                        width: 100%;
-
-                        &-info__answers {
-                            width: 880px;
-
-                            &_request {
-                                width: 800px;
-                                margin: auto;
-                            }
-                        }
-
-                    }
-
-                }
-
-                /* КОНТАКТЫ */
-
-       .contacts {
-                    margin: auto;
-                    margin-top: 90px;
-                    max-width: 1100px;
-                    width: 100%;
-
-                    & h4 {
-                        text-align: center;
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 24px;
-                        line-height: 28px;
-
-                        color: #2F2F51;
-
-                        margin-bottom: 60px;
-                    }
-
-                    &-block {
-                        display: flex;
-                    }
-                }
-
-                .block-left {
-
+                &__text {
                     width: 600px;
 
-                    &__title {
+
+                }
+
+                &__text p {
+                    display: block;
+                    width: 300px;
+                    height: 160px;
+                    margin-left: 280px;
+
+
+
+                }
+
+            }
+        }
+
+        &__advantages {
+            max-width: 1100px;
+            width: 100%;
+            height: 450px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0 auto;
+            align-items: center;
+
+
+            &-card {
+                display: flex;
+
+                height: 105px;
+
+                &__description {
+                    width: 260px;
+                    display: flex;
+
+
+                    & img {
+                        margin-right: 20px
+                    }
+
+                    &_text p {
+                        width: 170px;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        margin-top: 20px;
+                    }
+
+
+
+                    & h4 {
+                        margin-bottom: 10px;
                         font-family: 'Roboto';
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 18px;
-                        line-height: 21px;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+
+                        text-transform: uppercase;
 
                         color: #2F2F51;
 
-                        padding-bottom: 25px;
+
+
                     }
 
-                    &__contacts {
-                        display: flex;
-                        gap: 50px;
-                        max-width: 500px;
-                        width: 100%;
 
-                        padding-bottom: 30px;
+                }
+            }
 
+        }
+
+        &__buttons {
+            display: block;
+            text-align: center;
+
+
+
+
+            &_zamer {
+                background-color: #ef7f04;
+                width: 250px;
+                height: 50px;
+                border-radius: 3px;
+                color: #FFFFFF;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 19px;
+                cursor: pointer;
+                margin-top: 20px;
+                transition: all .2s ease;
+
+                &:hover {
+                    background-color: #EF7F04;
+                    transition-duration: 0.4s;
+
+                    letter-spacing: 2px;
+
+                    width: 270px;
+
+                }
+
+            }
+        }
+    }
+
+    /* АДАПТИВ БЛОКА О КОМПАНИИ */
+
+    @media screen and (max-width: 992px) {
+
+        .container {
+            max-width: 880px;
+            width: 100%;
+        }
+
+        .about-company {
+            max-width: 880px;
+            width: 100%;
+            margin-top: 20px;
+
+            &__info {
+                width: 880px;
+
+            }
+
+            &__info-description {
+                width: 433px;
+
+                &__text p {
+                    margin-left: 60px;
+                }
+            }
+
+            &__info_image img {
+                width: 447px;
+                height: 460px;
+            }
+
+            &__advantages {
+                grid-template-columns: 1fr 1fr;
+
+            }
+        }
+
+
+
+
+    }
+
+
+
+    /* БЛОК ПОРТФОЛИО */
+
+    .portfolio {
+        max-width: 1200px;
+        width: 100%;
+        height: 410px;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+
+        &-info h4 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #2F2F51;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+
+            padding-top: 50px;
+
+        }
+
+        &-info__pictures {
+
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            gap: 45px;
+            align-items: center;
+
+        }
+
+
+    }
+
+    /* АДАПТИВ ПОРТФОЛИО */
+
+    @media screen and (max-width: 992px) {
+
+        .portfolio {
+            max-width: 992px;
+            width: 100%;
+
+            &-info__pictures {
+                max-width: 730px;
+                width: 100%;
+
+                & img:last-child {
+                    display: none;
+                }
+            }
+
+
+        }
+
+    }
+
+    /* ВОПРОС ОТВЕТ */
+
+    .questions {
+        max-width: 1200px;
+        width: 100%;
+        height: 790px;
+        margin: 0 auto;
+        background: #EF7F1A;
+        border-radius: 7px;
+
+
+
+        &-info__answers h4 {
+            text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #FFFFFF;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        &-info__answers {
+            width: 1000px;
+            display: grid;
+            gap: 15px;
+            margin: auto;
+
+            &_request {
+
+                height: 85px;
+                border: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+
+                padding: 30px 0px 30px 19px;
+
+                background-color: #FFFFFF;
+
+                & summary {
+                    padding-bottom: 10px;
+                    display: block;
+                    outline: none;
+                    appearance: none;
+                    -webkit-details-marker: none;
+                }
+
+            }
+
+
+
+        }
+
+    }
+
+    /* АДАПТИВ ВОПРОС-ОТВЕТ */
+
+    @media screen and (max-width: 992px) {
+
+        .questions {
+            max-width: 880px;
+            width: 100%;
+
+            &-info__answers {
+                width: 880px;
+
+                &_request {
+                    width: 800px;
+                    margin: auto;
+                }
+            }
+
+        }
+
+    }
+
+    /* КОНТАКТЫ */
+
+    .contacts {
+        margin: auto;
+        margin-top: 90px;
+        max-width: 1100px;
+        width: 100%;
+
+        & h4 {
+            text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #2F2F51;
+
+            margin-bottom: 60px;
+        }
+
+        &-block {
+            display: flex;
+        }
+    }
+
+    .block-left {
+
+        width: 600px;
+
+        &__title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: #2F2F51;
+
+            padding-bottom: 25px;
+        }
+
+        &__contacts {
+            display: flex;
+            gap: 50px;
+            max-width: 500px;
+            width: 100%;
+
+            padding-bottom: 30px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 36px;
+            /* or 164% */
+
+
+            color: #000000;
+
+            &_numbers {
+
+                & a {
+                    transition: all .2s ease;
+                }
+
+                & img {
+                    padding-right: 30px;
+                }
+
+                & a:hover {
+                    color: #ef7f04;
+                    transition-duration: 0.2s;
+                }
+            }
+        }
+
+
+        &__adress {
+            width: 425px;
+            padding-bottom: 60px;
+
+            &_name {
+                padding-bottom: 15px;
+
+                & a  {
+                    transition: all .2s ease;
+                }
+
+                & img {
+                    padding-right: 20px;
+                }
+
+                & a:hover {
+                    color: #ef7f04;
+                    transition-duration: 0.2s;
+                    
+                }
+            }
+
+            &_email {
+                 
+                & a {
+                    transition: all .2s ease;
+                }
+
+                & img {
+                    padding-right: 18px;
+                }
+
+                & a:hover {
+                    color: #ef7f04;
+                    transition-duration: 0.2s;
+                }
+            }
+        }
+
+
+        &__information {
+
+            display: flex;
+
+            &-data {
+                width: 270px;
+
+                &__social img {
+                    padding-right: 3px;
+                }
+
+
+                &__description {
+                    width: 200px;
+
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    /* or 138% */
+
+
+                    color: #2F2F51;
+
+                    margin-bottom: 20px;
+                }
+
+                &__social {
+
+                    & a {
+                        padding-right: 3px;
+                        
+                    }
+
+                    &_logo {
+                        transition: all .2s ease;
+                    }
+
+                    &_logo:hover {
+                        transform: scale(1.7);
+                        transition-duration: 0.3s;
+
+                    }
+
+                }
+
+            }
+
+
+
+
+
+
+        }
+
+    }
+
+    .block-right {
+
+
+
+        &__request {
+            position: relative;
+            width: 510px;
+            height: 565px;
+            border-radius: 10px;
+            background: white;
+            padding: 45px 40px 65px 40px;
+
+            text-align: center;
+
+            & h5 {
+                padding-bottom: 20px;
+
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+
+                color: #2F2F51;
+
+            }
+
+            & input {
+                margin-bottom: 25px;
+            }
+
+            & textarea {
+                background: #E2E2E2;
+                border: none;
+                margin-bottom: 20px;
+                width: 430px;
+                padding-left: 15px;
+                padding-top: 15px;
+            }
+
+            &_form {
+                padding-left: 15px;
+                display: block;
+                width: 100%;
+                margin-bottom: 15px;
+                height: 40px;
+                border: none;
+            }
+
+            & button {
+                background: #2F2F51;
+                border-radius: 3px;
+                padding: 20px 40px;
+                color: white;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+
+                cursor: pointer;
+
+                transition: all .3s ease;
+
+                &:hover {
+                    transition: all 0.3s ease-out;
+
+                    background-color: #ef7f04;
+
+                    letter-spacing: 3px;
+                }
+            }
+
+        }
+
+        &__request_check {
+            display: block;
+
+            & a {
+                color: #ef7f04;
+            }
+
+
+
+            & label {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+
+
+            }
+
+        }
+
+
+
+    }
+
+    /* АДАПТИВ БЛОКА КОНТАКТЫ  */
+
+    @media screen and (max-width: 992px) {
+
+        .contacts {
+
+            &-block {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+    }
+
+    .block-left {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .block-right {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+
+        max-width: 1920px;
+        width: 100%;
+        height: 100px;
+        background-color: #2F2F51;
+
+        &-content {
+            height: 75px;
+            display: flex;
+
+            &__copyright {
+                max-width: 960px;
+                width: 100%;
+                height: 55px;
+                margin-top: 20px;
+
+                &-contents {
+                    width: 400px;
+                    height: 55px;
+                    display: flex;
+                    margin: auto;
+                    align-items: center;
+
+                    & img {
+                        padding-right: 20px;
+                    }
+
+                    &_text {
                         font-family: 'Roboto';
                         font-style: normal;
-                        font-weight: 700;
-                        font-size: 22px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #ffffff;
+                    }
+
+                }
+            }
+
+            &__licences {
+                max-width: 960px;
+                width: 100%;
+                height: 55px;
+                margin-top: 20px;
+                padding-top: 10px;
+
+                &-data {
+                    width: 445px;
+                    display: flex;
+                    margin: auto;
+                    gap: 19px;
+
+
+
+                    &__politics {
+                        align-items: center;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
                         line-height: 36px;
-                        /* or 164% */
+                        /* identical to box height, or 257% */
 
+                        color: #FFFFFF;
 
-                        color: #000000;
+                        transition: all .2s ease;
 
-                        &_numbers {
-
-                            & img {
-                                padding-right: 30px;
-                            }
-
-                            & a:hover {
-                                color: #ef7f04;
-                                transition-duration: 0.2s;
-                            }
-                        }
-                    }
-
-
-                    &__adress {
-                        width: 425px;
-                        padding-bottom: 60px;
-
-                        &_name {
-                            padding-bottom: 15px;
-
-                            & img {
-                                padding-right: 20px;
-                            }
-
-                            & a:hover {
-                                color: #ef7f04;
-                                transition-duration: 0.2s;
-                            }
-                        }
-
-                        &_email {
-
-                            & img {
-                                padding-right: 18px;
-                            }
-
-                            & a:hover {
-                                color: #ef7f04;
-                                transition-duration: 0.2s;
-                            }
-                        }
-                    }
-
-
-                    &__information {
-
-                        display: flex;
-
-                        &-data {
-                            width: 270px;
-
-                            &__social img {
-                                padding-right: 3px;
-                            }
-
-
-                            &__description {
-                                width: 200px;
-
-                                font-family: 'Roboto';
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 14px;
-                                line-height: 22px;
-                                /* or 138% */
-
-
-                                color: #2F2F51;
-
-                                margin-bottom: 20px;
-                            }
-
-                            &__social {
-
-                                & a {
-                                    padding-right: 3px;
-                                }
-
-                                &_logo:hover {
-                                    transform: scale(1.7);
-                                    transition-duration: 0.3s;
-
-                                }
-
-                            }
-
-                        }
-
-
-
-
-
-
-                    }
-
-                }
-
-                .block-right {
-
-
-
-                    &__request {
-                        position: relative;
-                        width: 510px;
-                        height: 565px;
-                        border-radius: 10px;
-                        background: white;
-                        padding: 45px 40px 65px 40px;
-
-                        text-align: center;
-
-                        & h5 {
-                            padding-bottom: 20px;
-
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 24px;
-                            line-height: 28px;
-
-                            color: #2F2F51;
-
-                        }
-
-                        & input {
-                            margin-bottom: 25px;
-                        }
-
-                        & textarea {
-                            background: #E2E2E2;
-                            border: none;
-                            margin-bottom: 20px;
-                            width: 430px;
-                            padding-left: 15px;
-                            padding-top: 15px;
-                        }
-
-                        &_form {
-                            padding-left: 15px;
-                            display: block;
-                            width: 100%;
-                            margin-bottom: 15px;
-                            height: 40px;
-                            border: none;
-                        }
-
-                        & button {
-                            background: #2F2F51;
-                            border-radius: 3px;
-                            padding: 20px 40px;
-                            color: white;
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 16px;
-
-                            cursor: pointer;
-
-                            &:hover {
-                                background-color: #ef7f04;
-                                transition-duration: 0.3s;
-                            }
-                        }
-
-                    }
-
-                    &__request_check {
-                        display: block;
-
-                        & a {
+                        &:hover {
                             color: #ef7f04;
-                        }
-
-
-
-                        & label {
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 20px;
-
-
+                            transition-duration: 0.3s;
                         }
 
                     }
 
+                    &__agreement {
+                        align-items: center;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 36px;
+                        /* identical to box height, or 257% */
 
+                        color: #FFFFFF;
 
-                }
+                        transition: all .2s ease;
 
-                /* АДАПТИВ БЛОКА КОНТАКТЫ  */
-
-                @media screen and (max-width: 992px) {
-
-                    .contacts {
-
-                        &-block {
-                            display: flex;
-                            flex-wrap: wrap;
-                        }
-                    }
-
-                }
-
-                .block-left {
-                    margin: 0 auto;
-                    padding-bottom: 20px;
-                }
-
-                .block-right {
-                    margin: 0 auto;
-                    padding-bottom: 20px;
-                }
-
-
-                /* FOOTER */
-
-                .footer {
-
-                    max-width: 1920px;
-                    width: 100%;
-                    height: 100px;
-                    background-color: #2F2F51;
-
-                    &-content {
-                        height: 75px;
-                        display: flex;
-
-                        &__copyright {
-                            max-width: 960px;
-                            width: 100%;
-                            height: 55px;
-                            margin-top: 20px;
-
-                            &-contents {
-                                width: 400px;
-                                height: 55px;
-                                display: flex;
-                                margin: auto;
-                                align-items: center;
-
-                                & img {
-                                    padding-right: 20px;
-                                }
-
-                                &_text {
-                                    font-family: 'Roboto';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 16px;
-                                    line-height: 20px;
-                                    color: #ffffff;
-                                }
-
-                            }
+                        &:hover {
+                            color: #ef7f04;
+                            transition-duration: 0.3s;
                         }
 
-                        &__licences {
-                            max-width: 960px;
-                            width: 100%;
-                            height: 55px;
-                            margin-top: 20px;
-                            padding-top: 10px;
-
-                            &-data {
-                                width: 445px;
-                                display: flex;
-                                margin: auto;
-                                gap: 19px;
-
-                              
-
-                                &__politics {
-                                    align-items: center;
-                                    font-family: 'Roboto';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    line-height: 36px;
-                                    /* identical to box height, or 257% */
-
-                                    color: #FFFFFF;
-
-                                    &:hover {
-                                        color: #ef7f04;
-                                        transition-duration: 0.3s;
-                                    }
-
-                                }
-
-                                &__agreement {
-                                    align-items: center;
-                                    font-family: 'Roboto';
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    font-size: 14px;
-                                    line-height: 36px;
-                                    /* identical to box height, or 257% */
-
-                                    color: #FFFFFF;
-
-                                    &:hover {
-                                        color: #ef7f04;
-                                        transition-duration: 0.3s;
-                                    }
-
-                                }
-                            }
-
-                        }
                     }
                 }
-            
+
+            }
+        }
+    }
