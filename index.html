@@ -18,12 +18,47 @@
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/products.css">
     <link rel="stylesheet" href="/css/schtandart.css">
+    <link rel="stylesheet" href="/css/totop.css">
     <title>Окна Хаус</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            $(window).scroll(function () {
+
+                if ($(this).scrollTop() != 0) {
+
+                    $('#toTop').fadeIn();
+
+                } else {
+
+                    $('#toTop').fadeOut();
+
+                }
+
+            });
+
+            $('#toTop').click(function () {
+
+                $('body,html').animate({ scrollTop: 0 }, 800);
+
+            });
+
+        });
+
+    </script>
 
 </head>
 
+<DIV ID="toTop">^Наверх</DIV >
+
+
 <body>
 
+    
     <!--  БЛОК HEADER  -->
 
     <header class="header">
@@ -857,7 +892,7 @@
                 <div class="footer-content__licences">
 
                     <div class="footer-content__licences-data">
-                        
+
                         <a href="#" class="footer-content__licences-data__politics">
                             Политика конфиденциальности
                         </a>
