@@ -190,6 +190,12 @@ input {
     line-height: 16px;
 
     cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.request-info__send:hover {
+    letter-spacing: 2px;
 }
 
 
