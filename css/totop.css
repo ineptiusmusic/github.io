@@ -1,0 +1,20 @@
+#toTop {
+    width:100px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    background:#EF7F04;
+    
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    left:30px;
+    cursor:pointer;
+    display:none;
+    color:#ffffff;
+    font-family:verdana;
+    font-size:11px;
+    padding-top: 12px;
+    opacity: 80%;
+    }

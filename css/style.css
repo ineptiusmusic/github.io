@@ -378,6 +378,10 @@
   -webkit-details-marker: none;
 }
 
+.questions-info__answers_request:nth-child(5) {
+  color: #ef7f04;
+}
+
 /* АДАПТИВ ВОПРОС-ОТВЕТ */
 @media screen and (max-width: 992px) {
   .questions {

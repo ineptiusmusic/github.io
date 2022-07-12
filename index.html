@@ -18,12 +18,47 @@
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/products.css">
     <link rel="stylesheet" href="/css/schtandart.css">
+    <link rel="stylesheet" href="/css/totop.css">
     <title>Окна Хаус</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            $(window).scroll(function () {
+
+                if ($(this).scrollTop() != 0) {
+
+                    $('#toTop').fadeIn();
+
+                } else {
+
+                    $('#toTop').fadeOut();
+
+                }
+
+            });
+
+            $('#toTop').click(function () {
+
+                $('body,html').animate({ scrollTop: 0 }, 800);
+
+            });
+
+        });
+
+    </script>
 
 </head>
 
+<DIV ID="toTop">В начало</DIV >
+
+
 <body>
 
+    
     <!--  БЛОК HEADER  -->
 
     <header class="header">
@@ -38,22 +73,22 @@
                 <nav>
                     <ul class="header__navigations">
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link">Услуги</a>
+                            <a class="navigations__item_text" href="#service">Услуги</a>
                         </li>
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link">Продукция</a>
+                            <a class="navigations__item_text" href="#prod">Продукция</a>
                         </li>
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link">О Компани</a>
+                            <a class="navigations__item_text" href="#about">О Компани</a>
                         </li>
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link">Портфолио</a>
+                            <a class="navigations__item_text" href="#portfol">Портфолио</a>
                         </li>
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link">Вопрос-Ответ</a>
+                            <a class="navigations__item_text" href="#faq">Вопрос-Ответ</a>
                         </li>
                         <li class="navigatons__item">
-                            <a class="navigations__item_text" href="link"> Контакты</a>
+                            <a class="navigations__item_text" href="#contacts"> Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -180,7 +215,7 @@
 
         <!-- БЛОК С УСЛУГАМИ-->
 
-        <section class="services">
+        <section class="services" id="service">
 
             <h2 class="services__title">Наши Услуги</h2>
             <ul class="services__info">
@@ -261,7 +296,7 @@
 
         <!--БЛОК С ПРОДУКЦИЕЙ-->
 
-        <section class="container production">
+        <section class="container production" id="prod">
             <h2 class="title">Продукция</h2>
             <ul class="production__buttons">
                 <li>
@@ -404,7 +439,7 @@
 
         <!--БЛОК О КОМПАНИИ-->
 
-        <section class="about-company">
+        <section class="about-company" id="about">
 
             <!-- Навигация -->
 
@@ -594,7 +629,7 @@
 
         <!--БЛОК ПОРТФОЛИО-->
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfol">
 
             <div class="portfolio-info">
 
@@ -617,7 +652,7 @@
 
         <!-- БЛОК ВОПРОС-ОТВЕТ-->
 
-        <section class="questions">
+        <section class="questions" id="faq">
 
             <div class="questions-info">
 
@@ -694,7 +729,7 @@
 
         <!-- БЛОК КОНТАКТЫ -->
 
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h4>Контакты</h4>
 
             <!-- БЛОК С ЛЕВОЙ И ПРАВОЙ ЧАСТЬЮ БЛОКА-->
@@ -857,7 +892,7 @@
                 <div class="footer-content__licences">
 
                     <div class="footer-content__licences-data">
-                        
+
                         <a href="#" class="footer-content__licences-data__politics">
                             Политика конфиденциальности
                         </a>
