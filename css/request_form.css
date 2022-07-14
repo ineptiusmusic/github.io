@@ -1,0 +1,232 @@
+                                                    /* Стили для контейнера */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+                                    /* Стиль для бэкграунда всего блока (section) */
+
+.request-form {
+    padding-bottom: 70px;
+    background-image: url(/img/introBackground.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+
+
+                                    /* Стили для контейнера с левой и правой частью блока */
+
+.form-info {
+    padding-top: 70px;
+    display: flex;
+}
+
+
+
+
+                                        /* Левая часть блока (left-block) */
+
+
+.form-info__left {
+padding: 60px 52px 0px 85px;
+}                                        
+
+
+
+                                                /* Блок с Названием */
+
+.left-block__title {
+    margin-bottom: 20px;
+}
+
+
+
+                                                    /* Стиль для h1 */
+
+.block__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #EF7F04;
+
+}
+
+                                                    /* Стили для описания тайтла */
+
+.title__description {
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white
+}
+
+                                                        /* Стили для иконок */
+
+.left-block__logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+                                                        /* Стили для описания иконок */
+
+.logo-icon__description {
+    margin-top: 20px;
+    color: white;
+    width: 158px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+                                                        /* Стили для последнего элемента описания */
+
+..logo-icon__description:last-child {
+    width: 80px;
+}
+
+
+
+
+                                                  /*     ПРАВА ЧАСТЬ БЛОКА. Форма с Инпутами     */
+
+
+
+
+.licence {
+    color: blue;
+}
+
+
+                                                        /* Бэкграунд формры */
+
+.data__request {
+    position: relative;
+    width: 410px;
+    border-radius: 10px;
+    background: white;
+    padding: 45px 40px 65px 40px;
+
+    text-align: center;
+}
+
+
+
+
+                                                        /* Стиль для тайтла формы */
+
+
+.data__request h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+                                                        /* Стиль для инпутов */
+
+.request-info__input {
+    padding-left: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+
+}
+
+input {
+    background-color: #e2e2e2;
+    border-radius: 3px;
+}
+
+.request-info__input::placeholder {
+    color: #424268;
+}
+
+
+                                                        /* Стиль для секбокса */
+
+
+.input-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.request-info__checkbox {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px
+}
+
+
+.input-checkbox label {
+    font-size: 14px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+                                                          /* Стиль для кнопки */
+
+.request-info__send {
+    background: #EF7F04;
+    border-radius: 3px;
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    cursor: pointer;
+
+    transition: all .3s ease;
+}
+
+.request-info__send:hover {
+    letter-spacing: 2px;
+}
+
+
+                                                            /* Рисунок с рулеткой */
+
+.ruletka {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+                                                                  /* Адаптив */
+
+
+  @media screen and (max-width: 992px) {
+     .form-info__right {
+        display: none;
+     }                       
+     
+     .request-form {
+        margin-bottom: 20px;
+     }
+
+     .container {
+        width: 750px;
+     }
+
+     .form-info{
+        padding-top: 15px;
+     }
+     
+ }

@@ -1,0 +1,141 @@
+.production {
+  max-height: 700px;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+.title {
+  text-align: center;
+}
+
+.production__buttons {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.production__buttons button {
+  border: none;
+  background: none;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  padding: 8px 24px;
+  cursor: pointer;
+  outline: none;
+
+  transition: all .1s ease;
+}
+
+.production__buttons button:hover {
+  background-color: #ef7f04;
+  color: #ffffff;
+  border-radius: 3px;
+
+}
+
+.production__buttons button:focus {
+  color: #ffffff;
+  background: #ef7f04;
+}
+
+.production__about {
+  margin-top: 34px;
+  padding: 0 calc((100% - 1145px) / 2);
+  display: flex;
+
+}
+
+/*
+.production__about img {
+    cursor: zoom-in;
+}
+*/
+.production__about-content {
+  padding: 74px 32px 52px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.production__about-content h4 {
+  color: #ef7f04;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+
+.production__about-content span {
+  width: 60%;
+
+}
+
+
+.production__about-content li {
+  font-weight: bold;
+  margin-bottom: 8px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.production__about-content li::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px dotted;
+  width: 80%;
+  right: 0;
+  bottom: 0;
+}
+
+.production__about-content li p {
+  position: relative;
+  background: white;
+  z-index: 1;
+}
+
+.production__about-content p:last-child {
+  width: 125px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .production {
+    width: 880px;
+
+  }
+
+  .production__about {
+    width: 880px;
+
+  }
+
+  .production__about img {
+    width: 380px;
+  }
+
+  .production__about-content {
+    width: 500px;
+  }
+
+  .production__about-content h4 {
+    margin-bottom: 20px;
+
+  }
+
+  .production__about-content span {
+    margin-bottom: 10%;
+  
+  }
+
+}

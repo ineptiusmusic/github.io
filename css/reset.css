@@ -1,0 +1,69 @@
+body {
+    max-width: 1920px;
+    width: 100%;
+    
+}
+
+
+h1,h2,h3,h4,h5,h6, body, p {
+    margin: 0;
+    padding: 0;
+    
+}
+/*
+p {
+    margin: 0;
+    padding: 0;
+    
+}
+*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+
+
+img {
+    vertical-align: middle;
+}
+
+
+/*
+* {
+    border: 1px solid teal;
+}
+*/
+* {
+    box-sizing: border-box;
+}
+
+<<<<<<< HEAD
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F2F51;
+}
+=======
+
+input {
+    border: none;
+    
+>>>>>>> request_form
